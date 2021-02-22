@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF;
+    padding-bottom: 12px;
+
+    @media (min-width: 321px) {
+        justify-content: space-between;
+        padding-bottom: 7px;
+    }
+
+    @media (min-width: 769px) {
+        padding-bottom: 5px;
+    }
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px;
+}
+
+.nav__item {
+    margin-right: 24px;
+    position: relative;
+}
+
+.nav__item:first-child::after {
+    content: "";
+    background-image: url(../img/dash.png);
+    width: 42px;
+    height: 2px;
+    position: absolute;
+    left: -4px;
+    top: 25px;
+}
+
+.nav__logo {
+    margin-top: 22px;
+    padding-left: 15px;
+}
+
+.nav__logo svg {
+    @media (min-width: 321px) {
+        width: 96px;
+        height: 39px;
+    }
+}

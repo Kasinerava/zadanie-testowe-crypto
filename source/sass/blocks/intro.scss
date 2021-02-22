@@ -1,0 +1,203 @@
+.intro__text {
+    font-weight: 700;
+    color: #FFF;
+    line-height: 32px;
+    font-size: 24px;
+    padding-top: 28px;
+    letter-spacing: 0.6px;
+
+    @media (min-width: 321px) {
+        font-size: 40px;
+        padding-left: 65px;
+        padding-right: 50px;
+        line-height: 56px;
+        letter-spacing: 1.6px;
+        padding-top: 95px;
+        margin-bottom: 20px;
+    }
+
+    @media (min-width: 769px) {
+        padding-top: 176px;
+        padding-left: 0;
+        margin-right: 500px;
+    }
+}
+
+.intro__information {
+    font-family: $font;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 53px;
+    letter-spacing: 0.5px;
+    margin-bottom: 11px;
+
+    @media (min-width: 321px) {
+        font-size: 18px;
+        padding-left: 65px;
+        margin-top: 0;
+        padding-top: 60px;
+    }
+
+    @media (min-width: 769px) {
+        padding-left: 0;
+    }
+}
+
+.intro__btns {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    @media (min-width: 321px) {
+    display: flex;
+    padding-left: 64px;
+    padding-top: 11px;
+    }
+    
+    @media (min-width: 769px) {
+        padding-left: 0;
+    }
+}
+
+.intro__btn {
+    border: none;
+    border-radius: 25px;
+
+    &--1 {
+        padding: 13px 23px;
+        margin-bottom: 16px;
+        font-size: 17px;
+        width: 242px;
+
+        @media (min-width: 321px) {
+            padding-right: 220px;
+            position: relative;
+            }    
+    }
+
+    &--2 {
+        padding: 13px 106px;
+        background-color: #38A5DB;
+        color: $white;
+        font-size: 17px;
+
+        @media (min-width: 321px) {
+            position: absolute;
+            left: 527px;
+            padding-left: 0;
+            padding-right: 0;
+            width: 154px;
+        }
+
+        @media (min-width: 769px) {
+            left: 549px;
+        }
+    }
+}
+
+.intro__btns::after {
+    content: url("../img/down-arrow.png");
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 40px;
+    left: 129px;
+
+    @media (min-width: 321px) {
+        width: 60px;
+        height: 60px;
+        content: url("../img/down-arrow-tablet.png");
+        top: 174px;
+        left: -210px;
+    }
+
+    @media (min-width: 769px) {
+        top: 169px;
+        left: 76px;
+    }
+}
+
+.intro__media {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+    margin-top: 8px;
+
+    @media (min-width: 321px) {
+        margin-top: 182px;
+        margin-right: 0;
+    }
+
+    @media (min-width: 769px) {
+        margin-top: 0;
+        margin-right: -34px;
+    }
+}
+
+.intro__tw-tablet svg {
+    @media (min-width: 321px) {
+    width: 40px;
+    height: 40px;
+    }
+}
+
+.intro__fb-tablet svg {
+    @media (min-width: 321px) {
+    width: 40px;
+    height: 40px;
+    }
+}
+
+.intro__media-tw {
+    padding-bottom: 5px;
+}
+
+.intro__video {
+    border-radius: 10px;
+
+    @media (min-width: 321px) {
+    width: 544px;
+    height: 382px;
+    }
+}
+
+.intro__video-container {
+    margin-top: 42px;
+    position: relative;
+
+    @media (min-width: 321px) {
+    left: 98px;
+    top: 32px;
+    width: 544px;
+    }
+
+    @media (min-width: 769px) {
+    position: absolute;
+    top: 50px;
+    left: 834px;
+    }
+}
+
+.intro__video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: url('../img/play-button.png') 50% 50% no-repeat;  
+
+    @media (min-width: 321px) {
+        width: 544px;
+        }
+}
+
+.intro {
+    @media (min-width: 769px) {
+        position: relative;
+    }
+}

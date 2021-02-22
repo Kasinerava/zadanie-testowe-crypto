@@ -1,0 +1,130 @@
+.logo__wrapper {
+    background-image: url(/img/back-contacts.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    
+    @media (min-width: 321px) {
+        background-image: none;
+    }
+}
+
+.logo__wrapper-tablet {
+    @media (min-width: 321px) {
+    background-image: url(/img/contacts-tablet.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    width: fit-content;
+    }
+
+    @media (min-width: 769px) {
+    background-image: url(/img/contacts-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    width: fit-content;
+    margin: 0 auto;
+    }
+}
+
+.logo__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 321px) {
+        flex-direction: row;
+    }
+
+    @media (min-width: 769px) {
+        justify-content: space-between;
+    }
+}
+
+.logo__image {
+    padding-top: 33px;
+    align-items: left;
+    padding-right: 230px;
+
+    @media (min-width: 321px) {
+        padding-right: 158px;
+        padding-top: 22px;
+    }
+}
+
+.logo__mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13px;
+
+    @media (min-width: 321px) {
+        padding-right: 51px;
+        margin-top: 42px;
+    }
+}
+
+.logo__mail-text {
+    margin-top: 0;
+    color: #263396;
+    font-size: 16px;
+}
+
+.logo__mail-address {
+    margin-top: 5px;
+    color: #0F81FF;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    text-decoration: underline;
+}
+
+.logo__button {
+    width: 220px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    border-radius: 25px;
+    background-color: #38A5DB;
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 22px;
+    box-shadow: 0px 12px 44px rgba(56, 165, 219, 0.6);
+    cursor: pointer;
+    margin-bottom: 33px;
+
+    @media (min-width: 321px) {
+        margin-bottom: -4px;
+    }
+}
+
+.logo__links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: center;
+
+    @media (min-width: 321px) {
+    padding-top: 26px;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+    }
+}
+
+.logo__link a {
+    color: #45515F;
+    font-size: 12px;
+
+    @media (min-width: 321px) {
+        font-size: 18px;
+    }
+}
+
+.logo__link {
+    min-width: 136px;
+    padding-bottom: 23px;
+    text-align: center;
+}

@@ -1,0 +1,153 @@
+.contacts {
+    background-color: #252B42;
+    margin-top: 64px;
+    padding-bottom: 77px;
+
+    @media (min-width: 769px) {
+        padding-bottom: 54px;
+    }
+}
+
+.contacts__title {
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    padding-top: 97px;
+    text-align: center;
+    padding-left: 12px;
+    margin-bottom: 0;
+}
+
+.contacts__information {
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 20px;
+
+    @media (min-width: 321px) {
+        font-size: 18px;
+    }
+}
+
+.contacts__form-container {
+    background-color: #4250BF;
+    border-radius: 15px;
+    margin-top: 50px;
+
+    @media (min-width: 321px) {
+        width: 388px;
+        margin-left: 175px;
+        margin-top: 58px;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    @media (min-width: 769px) {
+        width: 400px;
+        margin-left: 391px;
+        margin-top: 58px;
+        border-radius: 15px;
+    }
+}
+
+.contacts__input {
+    width: 233px;
+    border: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 25px;
+    align-content: center;
+    margin-bottom: 24px;
+    padding-left: 23px;
+    font-size: 17px;
+
+    @media (min-width: 321px) {
+        width: 280px;
+    }
+
+    @media (min-width: 769px) {
+        width: 292px;
+    }
+}
+
+.contacts__input-container {
+    padding-top: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts__checkbox {
+    padding-right: 141px;
+    padding-top: 14px;  
+}
+
+.contacts__checkbox-custom {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.contacts__label {
+    color: #FFF;
+    font-size: 17px;
+
+    @media (min-width: 321px) {
+        padding-right: 42px;
+    }
+
+    @media (min-width: 769px) {
+        padding-right: 60px;
+    }
+}
+
+.contacts__checkbox-custom+label {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .contacts__checkbox-custom+label::before {
+    content: '';
+    display: inline-block;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: #FFF;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .contacts__checkbox-custom:checked+label::before {
+    background-image: url(../img/checked.png);
+  }
+
+  .contacts__submit {
+    width: 95px;
+    border: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 25px;
+    align-content: center;
+    margin-bottom: 27px;
+    font-size: 16px;
+    margin-right: 162px;
+    margin-top: 34px;
+
+    @media (min-width: 321px) {
+        margin-right: 208px;
+    }
+
+    @media (min-width: 769px) {
+        margin-right: 224px;
+    }
+  }
+
+
+

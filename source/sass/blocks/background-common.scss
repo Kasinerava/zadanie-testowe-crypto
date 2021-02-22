@@ -1,0 +1,24 @@
+.background-common {
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+
+    @media (min-width: 321px) {
+        background-image: url("/img/background-tablet.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: auto;
+        width: fit-content;
+    }
+
+    @media (min-width: 769px) {
+        background-image: url("/img/background-desktop.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: auto;
+        width: fit-content;
+        padding-bottom: 210px;
+        margin: 0 auto;
+    }
+}

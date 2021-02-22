@@ -1,0 +1,123 @@
+.team__main {
+    color: #1C1F83;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 11px;
+
+    @media (min-width: 321px) {
+        margin-top: 96px;
+    }
+
+    @media (min-width: 769px) {
+        margin-top: 24px;
+    }
+}
+
+.team__list-container {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+
+    @media (min-width: 321px) {
+        padding-bottom: 43px;
+    }
+
+    @media (min-width: 769px) {
+        padding-bottom: 22px;
+    }
+}
+
+.team__person-container {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 16px;
+    padding-bottom: 0;
+
+    @media (min-width: 769px) {
+        padding-top: 38px;
+    }
+}
+
+.team__name {
+    color: #38A5DB;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+
+    @media (min-width: 321px) {
+        font-size: 24px;
+        width: 270px;
+        margin-left: 0;
+    }
+}
+
+.team__position {
+    color: #011226;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+    @media (min-width: 321px) {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+.team__text {
+    color: #45515F;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+
+    @media (min-width: 321px) {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 auto;
+        width: 270px;
+    }
+}
+
+.team__contacts {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    @media (min-width: 321px) {
+        padding-right: 0;
+        padding-top: 25px;
+    }
+
+    @media (min-width: 769px) {
+        padding-right: 0;
+        padding-top: 0;
+    }
+}
+
+.team__contacts-fb {
+    padding-right: 5px;
+}
+
+.team__person-photo {
+    @media (min-width: 321px) {
+        width: 131px;
+        height: 131px;
+        margin: 0 auto;
+    }
+}
+
+.team__person {
+    @media (min-width: 321px) {
+        max-width: 270px;
+    }
+
+    @media (min-width: 769px) {
+        max-width: 270px;
+        padding-right: 30px;
+    }
+}

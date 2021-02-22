@@ -1,0 +1,67 @@
+{
+  "name": "ico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp build",
+    "start": "gulp start"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "source/*.html",
+    "source/js/**/*.js",
+    "source/img/**/*.svg",
+    "source/sass/**/*.scss"
+  ],
+  "engines": {
+    "node": "12.18.2"
+  },
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "1.0.0",
+    "autoprefixer": "9.8.4",
+    "browser-sync": "2.26.7",
+    "csso": "^4.0.3",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-html": "^3.2.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-deps": "^0.2.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-svgmin": "^3.0.0",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-terser": "^1.4.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-useref": "^5.0.0",
+    "gulp-webp": "^4.0.1",
+    "rename": "^1.0.4",
+    "stylelint": "13.6.1",
+    "stylelint-config-htmlacademy": "0.1.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "gulp-dependency-install": "0.0.8",
+    "gulp-fluent-ffmpeg": "^2.0.0",
+    "gulp-terser-js": "^5.2.2"
+  }
+}
