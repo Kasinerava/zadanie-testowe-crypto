@@ -1,9 +1,9 @@
 .logo__wrapper {
-    background-image: url(/img/back-contacts.png);
+    background-image: url(../img/back-contacts.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto;
-    
+
     @media (min-width: 321px) {
         background-image: none;
     }
@@ -11,7 +11,7 @@
 
 .logo__wrapper-tablet {
     @media (min-width: 321px) {
-    background-image: url(/img/contacts-tablet.png);
+    background-image: url(../img/contacts-tablet.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto;
@@ -19,7 +19,7 @@
     }
 
     @media (min-width: 769px) {
-    background-image: url(/img/contacts-desktop.png);
+    background-image: url(../img/contacts-desktop.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto;

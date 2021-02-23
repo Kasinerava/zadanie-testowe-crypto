@@ -75,13 +75,13 @@ p {
 
 @font-face {
   font-family: "Sen";
-  src: url("../fonts/Sen-Regular.woff2") format("woff2"), url("../fonts/Sen-Regular.woff") format("woff");
+  src: url(../fonts/Sen-Regular.woff2) format("woff2"), url(../fonts/Sen-Regular.woff) format("woff");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Sen";
-  src: url("../fonts/Sen-Bold.woff2") format("woff2"), url("../fonts/Sen-Bold.woff") format("woff");
+  src: url(../fonts/Sen-Bold.woff2) format("woff2"), url(../fonts/Sen-Bold.woff) format("woff");
   font-weight: 700;
   font-style: normal; }
 
@@ -167,7 +167,7 @@ p {
         left: 549px; } }
 
 .intro__btns::after {
-  content: url("../img/down-arrow.png");
+  content: url(../img/down-arrow.png);
   width: 30px;
   height: 30px;
   position: relative;
@@ -177,7 +177,7 @@ p {
     .intro__btns::after {
       width: 60px;
       height: 60px;
-      content: url("../img/down-arrow-tablet.png");
+      content: url(../img/down-arrow-tablet.png);
       top: 174px;
       left: -210px; } }
   @media (min-width: 769px) {
@@ -243,7 +243,7 @@ p {
   width: 100%;
   height: 100%;
   z-index: 10;
-  background: url("../img/play-button.png") 50% 50% no-repeat; }
+  background: url(../img/play-button.png) 50% 50% no-repeat; }
   @media (min-width: 321px) {
     .intro__video-overlay {
       width: 544px; } }
@@ -253,13 +253,13 @@ p {
     position: relative; } }
 
 .background-common {
-  background-image: url("/img/background.png");
+  background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: auto; }
   @media (min-width: 321px) {
     .background-common {
-      background-image: url("/img/background-tablet.png");
+      background-image: url(../img/background-tablet.png);
       background-repeat: no-repeat;
       background-position: top center;
       background-size: auto;
@@ -268,7 +268,7 @@ p {
       width: fit-content; } }
   @media (min-width: 769px) {
     .background-common {
-      background-image: url("/img/background-desktop.png");
+      background-image: url(../img/background-desktop.png);
       background-repeat: no-repeat;
       background-position: top center;
       background-size: auto;
@@ -509,7 +509,7 @@ p {
       margin-right: 224px; } }
 
 .logo__wrapper {
-  background-image: url(/img/back-contacts.png);
+  background-image: url(../img/back-contacts.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: auto; }
@@ -519,7 +519,7 @@ p {
 
 @media (min-width: 321px) {
   .logo__wrapper-tablet {
-    background-image: url(/img/contacts-tablet.png);
+    background-image: url(../img/contacts-tablet.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto;
@@ -529,7 +529,7 @@ p {
 
 @media (min-width: 769px) {
   .logo__wrapper-tablet {
-    background-image: url(/img/contacts-desktop.png);
+    background-image: url(../img/contacts-desktop.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto;
